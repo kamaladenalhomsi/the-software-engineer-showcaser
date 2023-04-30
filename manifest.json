@@ -1,9 +1,9 @@
 {
-  "_chunk-55f9c175.js": {
-    "file": "assets/chunks/chunk-55f9c175.js"
-  },
   "_chunk-ad3e06ed.js": {
     "file": "assets/chunks/chunk-ad3e06ed.js"
+  },
+  "_chunk-d0f89100.js": {
+    "file": "assets/chunks/chunk-d0f89100.js"
   },
   "node_modules/.pnpm/@fontsource+kadwa@4.5.11/node_modules/@fontsource/kadwa/files/kadwa-all-400-normal.woff": {
     "file": "assets/static/kadwa-all-400-normal.240aceaa.woff",
@@ -28,9 +28,9 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-server-routing.a52a9b34.js",
+    "file": "assets/entries/entry-server-routing.c8338110.js",
     "imports": [
-      "_chunk-55f9c175.js"
+      "_chunk-d0f89100.js"
     ],
     "isEntry": true,
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.119_vite@4.3.3/node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
@@ -42,9 +42,9 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-client-routing.ea9b5e02.js",
+    "file": "assets/entries/entry-client-routing.54b10852.js",
     "imports": [
-      "_chunk-55f9c175.js"
+      "_chunk-d0f89100.js"
     ],
     "isEntry": true,
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.119_vite@4.3.3/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
@@ -62,7 +62,7 @@
     "assets": [
       "assets/static/bootstrap-icons.5cd238ca.svg"
     ],
-    "file": "assets/entries/pages_resume_index.page.66714754.js",
+    "file": "assets/entries/pages_resume_index.page.dc8c5492.js",
     "imports": [
       "_chunk-ad3e06ed.js"
     ],
@@ -71,7 +71,7 @@
     "src": "pages/resume/index.page.tsx"
   },
   "renderer/_default.page.client.css": {
-    "file": "assets/static/default.page.client.e2945bf0.css",
+    "file": "assets/static/default.page.client.3b94e9a8.css",
     "src": "renderer/_default.page.client.css"
   },
   "renderer/_default.page.client.tsx": {
@@ -81,9 +81,9 @@
       "assets/static/kadwa-latin-400-normal.54ccb99c.woff2"
     ],
     "css": [
-      "assets/static/default.page.client.e2945bf0.css"
+      "assets/static/default.page.client.3b94e9a8.css"
     ],
-    "file": "assets/entries/renderer_default.page.client.0bba4f6f.js",
+    "file": "assets/entries/renderer_default.page.client.a89ba7c9.js",
     "imports": [
       "_chunk-ad3e06ed.js"
     ],
