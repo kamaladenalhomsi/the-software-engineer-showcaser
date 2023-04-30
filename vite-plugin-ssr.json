@@ -2,7 +2,7 @@
   "version": "0.4.119",
   "usesClientRouter": false,
   "manifestKeyMap": {},
-  "baseServer": "/the-software-engineer-showcaser",
-  "baseAssets": "/the-software-engineer-showcaser",
+  "baseServer": "/",
+  "baseAssets": "/",
   "includeAssetsImportedByServer": false
 }
