@@ -8,7 +8,6 @@ export default defineConfig(() => {
 
   const config: UserConfig = {
     plugins: [react(), ssr({ prerender: true })],
-    base: '/the-software-engineer-showcaser',
     resolve: {
       alias: {
         '#root': __dirname,
