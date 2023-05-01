@@ -45,7 +45,7 @@ function Page({
     <>
       <base target="_blank"></base>
       <Header basicInfo={basicInfoNoProfiles} />
-      <div className='grid grid-cols-3 grid-rows-1 mt-4 mb-4 sm:mt-10 print:mt-11'>
+      <div className='grid grid-cols-3 grid-rows-1 mt-4 mb-4 sm:mt-11'>
         <div className='flex col-span-1'>
           <NavLink href={email.url} icon={email.icon}>
             {email.username}
