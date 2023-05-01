@@ -56,5 +56,5 @@ function Address({ children }: AddressProps) {
 
 type ProfilePictureProps = { image: string };
 function ProfilePicture({ image }: ProfilePictureProps) {
-  return <img className="object-cover w-32 h-32 rounded-full sm:w-24 sm:h-24" src={image} />;
+  return <img className="object-cover w-32 h-32 rounded-full sm:w-24 sm:h-24 print:w-24 print:h-24" src={image} />;
 }
