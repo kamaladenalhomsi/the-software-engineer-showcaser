@@ -28,7 +28,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-server-routing.f7b1124b.js",
+    "file": "assets/entries/entry-server-routing.2d35fe8e.js",
     "imports": [
       "_chunk-aed556df.js"
     ],
@@ -42,7 +42,7 @@
       "renderer/_error.page.tsx",
       "renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-client-routing.824ce271.js",
+    "file": "assets/entries/entry-client-routing.ff70f8ce.js",
     "imports": [
       "_chunk-aed556df.js"
     ],
@@ -71,7 +71,7 @@
     "src": "pages/resume/index.page.tsx"
   },
   "renderer/_default.page.client.css": {
-    "file": "assets/static/default.page.client.57d0d7bd.css",
+    "file": "assets/static/default.page.client.d982e3f5.css",
     "src": "renderer/_default.page.client.css"
   },
   "renderer/_default.page.client.tsx": {
@@ -81,9 +81,9 @@
       "assets/static/kadwa-latin-400-normal.54ccb99c.woff2"
     ],
     "css": [
-      "assets/static/default.page.client.57d0d7bd.css"
+      "assets/static/default.page.client.d982e3f5.css"
     ],
-    "file": "assets/entries/renderer_default.page.client.108eb0fd.js",
+    "file": "assets/entries/renderer_default.page.client.ea99f486.js",
     "imports": [
       "_chunk-ad3e06ed.js"
     ],
