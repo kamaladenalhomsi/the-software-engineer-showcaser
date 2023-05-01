@@ -18,7 +18,7 @@ function Header({ basicInfo }: HeaderProps) {
         <div
           className="justify-center order-2 mt-6 sm:justify-self-start sm:order-none sm:col-start-1 sm:col-end-6 sm:mt-auto print:justify-self-start print:order-none print:col-start-1 print:col-end-6 print:mt-auto"
         >
-          <h1 className="text-5xl tracking-tighter text-center sm:text-6xl title sm:text-left print:text-6xl print:text-left">
+          <h1 className="text-6xl tracking-tighter text-center title sm:text-left print:text-left">
             <NameKerned kernedLetters={basicInfo.nameKerned} />
           </h1>
         </div>
@@ -56,5 +56,5 @@ function Address({ children }: AddressProps) {
 
 type ProfilePictureProps = { image: string };
 function ProfilePicture({ image }: ProfilePictureProps) {
-  return <img className="object-cover w-24 h-24 rounded-full" src={image} />;
+  return <img className="object-cover w-32 h-32 rounded-full" src={image} />;
 }

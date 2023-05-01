@@ -23,7 +23,7 @@ function SectionList({ type, points }: SectionListProps) {
         key={index}
       >
         <Icon
-          className={`min-w-[12px] max-w-[12px] w-[12px] h-[12px] sm:mt-0.5 mt-1 ${
+          className={`min-w-[18px] max-w-[18px] w-[18px] h-[18px] sm:min-w-[12px]sm: sm:max-w-[12px] sm:w-[12px] sm:h-[12px] sm:mt-0.5 mt-1 ${
             ListType.BULLET === type ? 'scale-150' : 'text-gray-500'
           }`}
           src={icon}
