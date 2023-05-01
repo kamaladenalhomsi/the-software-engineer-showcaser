@@ -23,12 +23,10 @@ function SectionList({ type, points }: SectionListProps) {
         key={index}
       >
         <Icon
-          className={`mt-0.5 ${
+          className={`min-w-[12px] max-w-[12px] w-[12px] h-[12px] sm:mt-0.5 mt-1 ${
             ListType.BULLET === type ? 'scale-150' : 'text-gray-500'
           }`}
           src={icon}
-          width={12}
-          height={12}
         />
 
         <ReactMarkdown children={content} className="whitespace-pre-wrap" />
@@ -36,5 +34,5 @@ function SectionList({ type, points }: SectionListProps) {
     );
   });
 
-  return <ul className="ml-2">{ListMembers}</ul>;
+  return <ul className="sm:ml-2">{ListMembers}</ul>;
 }

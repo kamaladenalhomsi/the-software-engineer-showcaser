@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from './components/Header';
-import { AddressBar } from './components/AddressBar';
+import { AddressBar, NavLink } from './components/AddressBar';
 import { EmploymentSection } from './components/EmploymentSection';
 import { AwardsSection } from './components/AwardsSection';
 import { EducationSection } from './components/EducationSection';
@@ -39,13 +39,25 @@ function Page({
   education,
   additionalExperience,
 }: ResumePageProps) {
-  const { profiles, ...basicInfoNoProfiles } = basicInfo;
+  const { profiles, email, ...basicInfoNoProfiles } = basicInfo;
 
   return (
     <>
       <base target="_blank"></base>
       <Header basicInfo={basicInfoNoProfiles} />
-      <AddressBar links={profiles} />
+      <div className='grid grid-cols-3 grid-rows-1 mt-4 mb-4 sm:mt-10 print:mt-11'>
+        <div className='flex col-span-1'>
+          <NavLink href={email.url} icon={email.icon}>
+            {email.username}
+          </NavLink>
+          <div className='flex justify-center w-full'>
+            <span className="invisible sm:visible print:visible">|</span>
+          </div>
+        </div>
+        <div className='col-span-2'>
+          <AddressBar links={profiles} />
+        </div>
+      </div>
       <EmploymentSection work={work} />
       <AwardsSection awards={awards} />
       <AdditionalExperience additionalExperience={additionalExperience} />

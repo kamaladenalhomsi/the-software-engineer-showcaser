@@ -31,10 +31,10 @@ export interface BasicInfo {
   name: string;
   nameKerned: KernedLetter[];
   image: string;
-  email: string;
   phone: string;
   url: string;
   address: string;
+  email: Profile
   profiles: Profile[];
 }
 

@@ -10,9 +10,7 @@
     "**[Hacktoberrank](https://github.com/paulodiovani/hacktoberrank)**: Contributed to the UI that ranked all participants in [Hacktoberfest](https://hacktoberfest.com/) 2019."
   ],
   "basics": {
-    "address": "Utrecht, Netherlands",
-    "email": "kamal.alhumsi@gmail.com",
-    "image": "/assets/images/profile-photo3.jpg",
+    "image": "/assets/images/profile-photo2.jpg",
     "name": "Kamal Eddin Alhumsi",
     "nameKerned": [
       {"character": "K", "letterSpacing": "-0.01em"},
@@ -30,12 +28,12 @@
       "i"
     ],
     "phone": "+31 687 470 437",
+    "email": {
+      "icon": "envelope-at",
+      "url": "mailto:kamal.alhumsi@gmail.com",
+      "username": "kamal.alhumsi@gmail.com"
+    },
     "profiles": [
-      {
-        "icon": "envelope-at",
-        "url": "mailto:kamal.alhumsi@gmail.com",
-        "username": "kamal.alhumsi@gmail.com"
-      },
       {
         "icon": "linkedin",
         "url": "https://www.linkedin.com/in/kamal-eddin-alhumsi-83a42b110/",
