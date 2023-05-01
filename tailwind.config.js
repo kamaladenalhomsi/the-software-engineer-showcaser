@@ -23,6 +23,9 @@ export default {
       fontFamily: {
         serif: ['Kadwa', ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        '2xs': '9px',
+      },
       scale: {
         scale: {
           120: '1.2',
