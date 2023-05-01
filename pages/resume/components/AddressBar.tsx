@@ -36,7 +36,7 @@ type NavLinkProps = { href: string; icon: string; children: React.ReactNode };
 function NavLink({ href, icon, children }: NavLinkProps) {
   return (
     <a href={href} target="_blank" className="flex flex-row items-center gap-2">
-      <Icon src={icon} className='w-4 h-4' />
+      <Icon src={icon} className='w-5 h-5 sm:w-4 sm:h-4' />
       {children}
     </a>
   );

@@ -26,7 +26,7 @@ function SectionTitle({ left, right, middle, middleUrl }: SectionTitleProps) {
         </h3>
       )}
       {right && (
-        <h3 className="col-start-2 col-end-4 sm:col-start-3 print:col-start-3 text-2xs justify-self-end sm:text-base print:text-base">{right}</h3>
+        <h3 className="col-start-2 col-end-4 text-xs sm:col-start-3 print:col-start-3 justify-self-end sm:text-base print:text-base">{right}</h3>
       )}
     </div>
   );
