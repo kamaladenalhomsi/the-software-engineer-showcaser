@@ -15,17 +15,13 @@ function Header({ basicInfo }: HeaderProps) {
             {basicInfo.phone} <br /> {basicInfo.address}
           </Address>
         </div> */}
-        <div
-          className="justify-center order-2 mt-6 sm:justify-self-start sm:order-none sm:col-start-1 sm:col-end-6 sm:mt-auto print:justify-self-start print:order-none print:col-start-1 print:col-end-6 print:mt-auto"
-        >
+        <div className="justify-center order-2 mt-6 sm:justify-self-start sm:order-none sm:col-start-1 sm:col-end-6 sm:mt-auto print:justify-self-start print:order-none print:col-start-1 print:col-end-6 print:mt-auto">
           <h1 className="text-6xl tracking-tighter text-center title sm:text-left print:text-left">
             <NameKerned kernedLetters={basicInfo.nameKerned} />
           </h1>
         </div>
 
-        <div
-          className="order-1 justify-self-center sm:relative sm:order-none sm:justify-self-auto print:relative print:order-none print:justify-self-auto"
-        >
+        <div className="order-1 justify-self-center sm:relative sm:order-none sm:justify-self-auto print:relative print:order-none print:justify-self-auto">
           <div className="sm:absolute sm:-top-12 sm:right-4 print:absolute print:-top-12 print:right-4">
             <ProfilePicture image={basicInfo.image} />
           </div>
@@ -56,5 +52,10 @@ function Address({ children }: AddressProps) {
 
 type ProfilePictureProps = { image: string };
 function ProfilePicture({ image }: ProfilePictureProps) {
-  return <img className="object-cover w-32 h-32 rounded-full sm:w-24 sm:h-24 print:w-24 print:h-24" src={image} />;
+  return (
+    <img
+      className="object-cover object-bottom w-32 h-32 rounded-full sm:w-24 sm:h-24 print:w-24 print:h-24"
+      src={image}
+    />
+  );
 }
