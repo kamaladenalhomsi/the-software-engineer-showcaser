@@ -12,23 +12,32 @@ export { EmploymentSection };
 type EmploymentSectionProps = { work: Work[] };
 function EmploymentSection({ work }: EmploymentSectionProps) {
   const subSections = work.map((job, index) => {
-    const jobEndDate = job.endDate === 'PRESENT' ? new Date() : new Date(job.endDate)
+    const startDateFixed = new Date(job.startDate.replace(/-/g, '/'));
+    const endDateFixed = new Date(job.endDate.replace(/-/g, '/'));
+    const jobEndDate = job.endDate === 'PRESENT' ? new Date() : endDateFixed;
     const diffInYears = useMemo(() => {
-      return differenceInYears(jobEndDate, new Date(job.startDate))
-    }, [job])
+      return differenceInYears(jobEndDate, startDateFixed);
+    }, [job]);
     const diffInMonths = useMemo(() => {
-      return (differenceInMonths(jobEndDate, diffInYears > 0 ? startOfYear(jobEndDate) : new Date(job.startDate)) + 1) + ' months'
-    }, [job])
+      return (
+        differenceInMonths(
+          jobEndDate,
+          diffInYears > 0 ? startOfYear(jobEndDate) : startDateFixed,
+        ) +
+        1 +
+        ' months'
+      );
+    }, [job]);
     const jobPeriodInString = useMemo(() => {
-      return `${diffInYears > 0 ? diffInYears + ' years' : ''} ${diffInMonths}`
-    }, [diffInYears, diffInMonths])
+      return `${diffInYears > 0 ? diffInYears + ' years' : ''} ${diffInMonths}`;
+    }, [diffInYears, diffInMonths]);
     return (
       <div className="mb-2" key={index}>
         <SectionTitle
           left={job.position}
           middle={job.name}
           middleUrl={job.url}
-          right={`${job.startDate} - ${job.endDate} (${jobPeriodInString})`}
+          right={`${startDateFixed} - ${endDateFixed} (${jobPeriodInString})`}
         />
 
         <SectionSummary content={job.summary} />
