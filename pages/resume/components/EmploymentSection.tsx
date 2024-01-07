@@ -12,17 +12,16 @@ export { EmploymentSection };
 type EmploymentSectionProps = { work: Work[] };
 function EmploymentSection({ work }: EmploymentSectionProps) {
   const subSections = work.map((job, index) => {
-    const startDateFixed = new Date(job.startDate.replace(/-/g, '/'));
-    const endDateFixed = new Date(job.endDate.replace(/-/g, '/'));
-    const jobEndDate = job.endDate === 'PRESENT' ? new Date() : endDateFixed;
+    const jobEndDate =
+      job.endDate === 'PRESENT' ? new Date() : new Date(job.endDate);
     const diffInYears = useMemo(() => {
-      return differenceInYears(jobEndDate, startDateFixed);
+      return differenceInYears(jobEndDate, new Date(job.startDate));
     }, [job]);
     const diffInMonths = useMemo(() => {
       return (
         differenceInMonths(
           jobEndDate,
-          diffInYears > 0 ? startOfYear(jobEndDate) : startDateFixed,
+          diffInYears > 0 ? startOfYear(jobEndDate) : new Date(job.startDate),
         ) +
         1 +
         ' months'
@@ -37,7 +36,7 @@ function EmploymentSection({ work }: EmploymentSectionProps) {
           left={job.position}
           middle={job.name}
           middleUrl={job.url}
-          right={`${startDateFixed} - ${endDateFixed} (${jobPeriodInString})`}
+          right={`${job.startDate} - ${job.endDate} (${jobPeriodInString})`}
         />
 
         <SectionSummary content={job.summary} />
