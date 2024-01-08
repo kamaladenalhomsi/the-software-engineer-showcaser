@@ -24,7 +24,7 @@ function EmploymentSection({ work }: EmploymentSectionProps) {
       ) + 1
       return (
         diffInMonthsInner +
-        (diffInMonthsInner === 1 ? 'month' : ' months')
+        (diffInMonthsInner === 1 ? ' month' : ' months')
       );
     }, [job]);
     const jobPeriodInString = useMemo(() => {
