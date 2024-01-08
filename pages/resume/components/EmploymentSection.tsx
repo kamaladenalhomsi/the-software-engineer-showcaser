@@ -18,13 +18,13 @@ function EmploymentSection({ work }: EmploymentSectionProps) {
       return differenceInYears(jobEndDate, new Date(job.startDate));
     }, [job]);
     const diffInMonths = useMemo(() => {
+      const diffInMonthsInner = differenceInMonths(
+        jobEndDate,
+        diffInYears > 0 ? startOfYear(jobEndDate) : new Date(job.startDate),
+      ) + 1
       return (
-        differenceInMonths(
-          jobEndDate,
-          diffInYears > 0 ? startOfYear(jobEndDate) : new Date(job.startDate),
-        ) +
-        1 +
-        ' months'
+        diffInMonthsInner +
+        (diffInMonthsInner === 1 ? 'month' : ' months')
       );
     }, [job]);
     const jobPeriodInString = useMemo(() => {
