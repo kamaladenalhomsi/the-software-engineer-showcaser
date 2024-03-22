@@ -13,18 +13,51 @@
     "image": "/assets/images/profile-photo2.jpg",
     "name": "Kamal Eddin Alhumsi",
     "nameKerned": [
-      {"character": "K", "letterSpacing": "-0.01em"},
-      {"character": "a", "letterSpacing": "-0.05em"},
-      {"character": "m", "letterSpacing": "-0.08em"},
-      {"character": "a", "letterSpacing": "-.05em"},
-      {"character": "l", "letterSpacing": "-.06em"},
+      {
+        "character": "K",
+        "letterSpacing": "-0.01em"
+      },
+      {
+        "character": "a",
+        "letterSpacing": "-0.05em"
+      },
+      {
+        "character": "m",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "a",
+        "letterSpacing": "-.05em"
+      },
+      {
+        "character": "l",
+        "letterSpacing": "-.06em"
+      },
       " ",
-      {"character": "A", "letterSpacing": "0.02em"},
-      {"character": "l", "letterSpacing": "0.02em"},
-      {"character": "h", "letterSpacing": "-.09em"},
-      {"character": "u", "letterSpacing": "-.03em"},
-      {"character": "m", "letterSpacing": "-.03em"},
-      {"character": "s", "letterSpacing": "-.04em"},
+      {
+        "character": "A",
+        "letterSpacing": "0.02em"
+      },
+      {
+        "character": "l",
+        "letterSpacing": "0.02em"
+      },
+      {
+        "character": "h",
+        "letterSpacing": "-.09em"
+      },
+      {
+        "character": "u",
+        "letterSpacing": "-.03em"
+      },
+      {
+        "character": "m",
+        "letterSpacing": "-.03em"
+      },
+      {
+        "character": "s",
+        "letterSpacing": "-.04em"
+      },
       "i"
     ],
     "phone": "+31 687 470 437",
@@ -135,7 +168,7 @@
       ],
       "name": "Hashtagfox",
       "position": "Software Engineer",
-      "startDate": "Jan 2020",
+      "startDate": "01 Jan 2020",
       "endDate": "PRESENT",
       "url": "https://www.hashtagfox.com/"
     },
@@ -166,8 +199,8 @@
       ],
       "name": "Team4Hire",
       "position": "Software Engineer",
-      "startDate": "Oct 2019",
-      "endDate": "Jan 2020",
+      "startDate": "00 Oct 2019",
+      "endDate": "01 Jan 2020",
       "url": "https://team4hire.nl/"
     },
     {
@@ -210,8 +243,8 @@
       ],
       "name": "Corptia",
       "position": "Software Engineer",
-      "startDate": "Jan 2019",
-      "endDate": "Nov 2019",
+      "startDate": "01 Jan 2019",
+      "endDate": "30 Nov 2019",
       "url": "https://corptia.com/"
     },
     {
@@ -252,8 +285,8 @@
       ],
       "name": "Baianat",
       "position": "Junior Software Engineer",
-      "startDate": "Aug 2018",
-      "endDate": "Dec 2018",
+      "startDate": "01 Aug 2018",
+      "endDate": "30 Dec 2018",
       "url": "https://www.baianat.com/"
     }
   ],
