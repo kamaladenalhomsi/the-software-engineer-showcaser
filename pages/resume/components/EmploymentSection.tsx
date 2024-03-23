@@ -28,15 +28,19 @@ function EmploymentSection({ work }: EmploymentSectionProps) {
       );
     }, [job]);
     const jobPeriodInString = useMemo(() => {
-      return `${diffInYears > 0 ? diffInYears + ' years' : ''} ${diffInMonths}`;
-    }, [diffInYears, diffInMonths]);
+      return `${diffInYears > 0 ? diffInYears + ' years' : ''} ${diffInMonths}`
+    }, [diffInYears, diffInMonths])
+
+    const startDate = job.startDate.slice(2)
+    const endDate = job.endDate !== 'PRESENT' ? job.endDate.slice(2) : 'PRESENT'
+
     return (
       <div className="mb-2" key={index}>
         <SectionTitle
           left={job.position}
           middle={job.name}
           middleUrl={job.url}
-          right={`${job.startDate} - ${job.endDate} (${jobPeriodInString})`}
+          right={`${startDate} - ${endDate} (${jobPeriodInString})`}
         />
 
         <SectionSummary content={job.summary} />
