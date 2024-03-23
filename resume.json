@@ -33,317 +33,272 @@
         "character": "l",
         "letterSpacing": "-.06em"
       },
-      "nameKerned": [
-        {
-          "character": "K",
-          "letterSpacing": "-0.01em"
-        },
-        {
-          "character": "a",
-          "letterSpacing": "-0.05em"
-        },
-        {
-          "character": "m",
-          "letterSpacing": "-0.08em"
-        },
-        {
-          "character": "a",
-          "letterSpacing": "-.05em"
-        },
-        {
-          "character": "l",
-          "letterSpacing": "-.06em"
-        },
-        " ",
-        {
-          "character": "A",
-          "letterSpacing": "0.02em"
-        },
-        {
-          "character": "l",
-          "letterSpacing": "0.02em"
-        },
-        {
-          "character": "h",
-          "letterSpacing": "-.09em"
-        },
-        {
-          "character": "u",
-          "letterSpacing": "-.03em"
-        },
-        {
-          "character": "m",
-          "letterSpacing": "-.03em"
-        },
-        {
-          "character": "s",
-          "letterSpacing": "-.04em"
-        },
-        {
-          "character": "A",
-          "letterSpacing": "0.02em"
-        },
-        {
-          "character": "l",
-          "letterSpacing": "0.02em"
-        },
-        {
-          "character": "h",
-          "letterSpacing": "-.09em"
-        },
-        {
-          "character": "u",
-          "letterSpacing": "-.03em"
-        },
-        {
-          "character": "m",
-          "letterSpacing": "-.03em"
-        },
-        {
-          "character": "s",
-          "letterSpacing": "-.04em"
-        },
-        "i"
-      ],
-      "phone": "+31 687 470 437",
-      "email": {
-        "icon": "envelope-at",
-        "url": "mailto:kamal.alhumsi@gmail.com",
-        "username": "kamal.alhumsi@gmail.com"
+      " ",
+      {
+        "character": "A",
+        "letterSpacing": "0.02em"
       },
-      "profiles": [
-        {
-          "icon": "linkedin",
-          "url": "https://www.linkedin.com/in/kamal-eddin-alhumsi-83a42b110/",
-          "username": "kamaleddin"
-        },
-        {
-          "icon": "globe",
-          "url": "https://kamal.alhumsi.me",
-          "username": "kamal.alhumsi.me"
-        },
-        {
-          "icon": "github",
-          "url": "https://github.com/kamaladenalhomsi",
-          "username": "kamaladenalhomsi"
-        }
-      ],
-      "url": "https://kamal.alhumsi.me"
+      {
+        "character": "l",
+        "letterSpacing": "0.02em"
+      },
+      {
+        "character": "h",
+        "letterSpacing": "-.09em"
+      },
+      {
+        "character": "u",
+        "letterSpacing": "-.03em"
+      },
+      {
+        "character": "m",
+        "letterSpacing": "-.03em"
+      },
+      {
+        "character": "s",
+        "letterSpacing": "-.04em"
+      },
+      "i"
+    ],
+    "phone": "+31 687 470 437",
+    "email": {
+      "icon": "envelope-at",
+      "url": "mailto:kamal.alhumsi@gmail.com",
+      "username": "kamal.alhumsi@gmail.com"
     },
-    "education": [],
-    "work": [
+    "profiles": [
       {
-        "highlights": [
-          "Led the entire frontend process, supervising junior developers, creating technical tasks with the product owner and design team, reviewing PRs, and evaluating technical solutions.",
-          "Leveraged frontend architectures (Monorepos and Microservices) with comprehensive testing (unit, integration, and end-to-end) and **CI/CD**.",
-          "Developed the [Hashtagfox.com](https://hashtagfox.com/) platform using Vue.js with more than **100 components** and **100 test cases**. Achieved a code coverage of **75%**.",
-          "Developed an email customer support platform (similar to Gmail) for internal teams using React.js utilized by our customer support.",
-          "Maintained large Node.js-TypeScript code bases (**50+ classes**) including internal and third-party services using an **MVC** architecture.",
-          "Solely built an internal task manager, with features such as real-time updates and activity logs, using TypeScript, React, Node.js, and Firebase.",
-          "Developed over **six** [Gatsby](https://www.gatsbyjs.com/) landing pages that are SEO ready and have less than **one second** loading time. E.g. [Coolpic.io](https://coolpic.io)",
-          "Developed multiple payment interfaces using Stripe, utilizing [Stripe elements](https://stripe.com/payments/elements) as well as standalone Stripe integration.",
-          "Built **8+ projects** with Firebase's various tools such as Firestore, real-time databases, authentication, hosting, storage, and cloud functions.",
-          "Built an advanced analytics dashboard, encompassing complex SQL aggregation queries consisting of more than **450 lines**, and developed over **20 queries**. The React.js-based dashboard provided critical insights to the organization, facilitating informed decision-making and leading to over **240k** [app installs](https://apps.apple.com/us/app/boost-app-social/id1551991915).",
-          "Demonstrated proficiency with [Google's Bigquery](https://cloud.google.com/bigquery), optimized SQL aggregation queries using data partitioning and clustering, saving **46%** of the cost and accelerating query processing times **by six times.**",
-          "Built [GCP cloud functions](https://firebase.google.com/docs/functions/schedule-functions) for different use cases such as webhook integration, saving received events to our Firestore database, and streaming data to Bigquery database, with over **300k** events successfully saved.",
-          "Possess average experience writing deployment pipelines using [Ansible](https://www.ansible.com/).",
-          "Experience in optimizing animation and page rendering to **60fps**."
-        ],
-        "keywords": [
-          {
-            "link": "https://www.typescriptlang.org/",
-            "name": "TypeScript"
-          },
-          {
-            "link": "https://react.dev/",
-            "name": "React"
-          },
-          {
-            "link": "https://nextjs.org/",
-            "name": "Next.js"
-          },
-          {
-            "link": "https://vuejs.org/",
-            "name": "Vue"
-          },
-          {
-            "link": "https://nuxtjs.org/",
-            "name": "Nuxt.js"
-          },
-          {
-            "link": "https://mui.com/",
-            "name": "MUI"
-          },
-          {
-            "link": "https://tailwindcss.com/",
-            "name": "Node.js"
-          },
-          {
-            "link": "https://www.fastify.io/",
-            "name": "Fastify"
-          },
-          {
-            "link": "https://www.gatsbyjs.org/",
-            "name": "Gatsby"
-          },
-          {
-            "link": "https://tailwindcss.com/",
-            "name": "Tailwind"
-          },
-          {
-            "link": "https://firebase.google.com/",
-            "name": "Firebase"
-          },
-          {
-            "link": "https://cloud.google.com/",
-            "name": "GCP"
-          },
-          {
-            "link": "https://cloud.google.com/bigquery",
-            "name": "Bigquery"
-          },
-          {
-            "link": "https://mixpanel.com/",
-            "name": "Mixpanel"
-          },
-          {
-            "link": "https://www.redhat.com/en/topics/devops/what-is-ci-cd",
-            "name": "CI/CD"
-          }
-        ],
-        "name": "Hashtagfox",
-        "position": "Software Engineer",
-        "startDate": "01 Jan 2020",
-        "endDate": "PRESENT",
-        "url": "https://www.hashtagfox.com/"
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/kamal-eddin-alhumsi-83a42b110/",
+        "username": "kamaleddin"
       },
       {
-        "highlights": [
-          "Developed high level microservices APIS that are based on PHP/Laravel.",
-          "Reviewed & modified other teammates code",
-          "Developed applications in modern workflows with CI\\CD pipelines and an iterative building process.",
-          "Wrote unit tests and designing different test cases."
-        ],
-        "keywords": [
-          {
-            "link": "https://www.php.net/",
-            "name": "PHP"
-          },
-          {
-            "link": "https://laravel.com/",
-            "name": "Laravel"
-          },
-          {
-            "link": "https://vuejs.org/",
-            "name": "Vue"
-          },
-          {
-            "link": "https://tailwindcss.com/",
-            "name": "Tailwind"
-          }
-        ],
-        "name": "Team4Hire",
-        "position": "Software Engineer",
-        "startDate": "00 Oct 2019",
-        "endDate": "01 Jan 2020",
-        "url": "https://team4hire.nl/"
+        "icon": "globe",
+        "url": "https://kamal.alhumsi.me",
+        "username": "kamal.alhumsi.me"
       },
       {
-        "highlights": [
-          "Joined Corptia as a front-end web developer after being invited by the founders.",
-          "Developed a Vue.js boilerplate admin panel, featuring a set of complex components like CRUD-generator component, while prioritizing ease of use, reusability, and performance.",
-          "Established a seamless GraphQL-based development workflow, leveraging GraphQL features such as fragments and aliases.",
-          "Collaborated closely with the design team and worked closely with the backend team to launch our GraphQL interfaces, and often provided additional help to the backend team.",
-          "Provided technical support to the mobile team on using Git and GraphQL."
-        ],
-        "keywords": [
-          {
-            "link": "https://vuejs.org/",
-            "name": "Vue"
-          },
-          {
-            "link": "https://graphql.org/",
-            "name": "GraphQL"
-          },
-          {
-            "link": "https://www.apollographql.com/",
-            "name": "Apollo"
-          },
-          {
-            "link": "https://nuxtjs.org/",
-            "name": "Nuxt.js"
-          },
-          {
-            "link": "https://nodejs.org/en",
-            "name": "Node.js"
-          },
-          {
-            "link": "https://expressjs.com/",
-            "name": "Express.js"
-          },
-          {
-            "link": "https://tailwindcss.com/",
-            "name": "Tailwind"
-          }
-        ],
-        "name": "Corptia",
-        "position": "Software Engineer",
-        "startDate": "01 Jan 2019",
-        "endDate": "30 Nov 2019",
-        "url": "https://corptia.com/"
-      },
-      {
-        "highlights": [
-          "Started my career in the company as a junior developer.",
-          "Worked with top-class developers and learned a lot in a short amount of time.",
-          "Completed tasks assigned to me in various projects, which helped me gain extensive knowledge and experience."
-        ],
-        "keywords": [
-          {
-            "link": "https://vuejs.org/",
-            "name": "Vue"
-          },
-          {
-            "link": "https://graphql.org/",
-            "name": "GraphQL"
-          },
-          {
-            "link": "https://www.apollographql.com/",
-            "name": "Apollo"
-          },
-          {
-            "link": "https://nuxtjs.org/",
-            "name": "Nuxt.js"
-          },
-          {
-            "link": "https://nodejs.org/en",
-            "name": "Node.js"
-          },
-          {
-            "link": "https://expressjs.com/",
-            "name": "Express.js"
-          },
-          {
-            "link": "https://sass-lang.com/",
-            "name": "Sass"
-          }
-        ],
-        "name": "Baianat",
-        "position": "Junior Software Engineer",
-        "startDate": "01 Aug 2018",
-        "endDate": "30 Dec 2018",
-        "url": "https://www.baianat.com/"
+        "icon": "github",
+        "url": "https://github.com/kamaladenalhomsi",
+        "username": "kamaladenalhomsi"
       }
     ],
-    "skills": [
-      {
-        "keywords": [
-          "HTML",
-          "CSS",
-          "JavaScript"
-        ],
-        "level": "Master",
-        "name": "Web Development"
-      }
-    ]
-  }
+    "url": "https://kamal.alhumsi.me"
+  },
+  "education": [],
+  "work": [
+    {
+      "highlights": [
+        "Led the entire frontend process, supervising junior developers, creating technical tasks with the product owner and design team, reviewing PRs, and evaluating technical solutions.",
+        "Leveraged frontend architectures (Monorepos and Microservices) with comprehensive testing (unit, integration, and end-to-end) and **CI/CD**.",
+        "Developed the [Hashtagfox.com](https://hashtagfox.com/) platform using Vue.js with more than **100 components** and **100 test cases**. Achieved a code coverage of **75%**.",
+        "Developed an email customer support platform (similar to Gmail) for internal teams using React.js utilized by our customer support.",
+        "Maintained large Node.js-TypeScript code bases (**50+ classes**) including internal and third-party services using an **MVC** architecture.",
+        "Solely built an internal task manager, with features such as real-time updates and activity logs, using TypeScript, React, Node.js, and Firebase.",
+        "Developed over **six** [Gatsby](https://www.gatsbyjs.com/) landing pages that are SEO ready and have less than **one second** loading time. E.g. [Coolpic.io](https://coolpic.io)",
+        "Developed multiple payment interfaces using Stripe, utilizing [Stripe elements](https://stripe.com/payments/elements) as well as standalone Stripe integration.",
+        "Built **8+ projects** with Firebase's various tools such as Firestore, real-time databases, authentication, hosting, storage, and cloud functions.",
+        "Built an advanced analytics dashboard, encompassing complex SQL aggregation queries consisting of more than **450 lines**, and developed over **20 queries**. The React.js-based dashboard provided critical insights to the organization, facilitating informed decision-making and leading to over **240k** [app installs](https://apps.apple.com/us/app/boost-app-social/id1551991915).",
+        "Demonstrated proficiency with [Google's Bigquery](https://cloud.google.com/bigquery), optimized SQL aggregation queries using data partitioning and clustering, saving **46%** of the cost and accelerating query processing times **by six times.**",
+        "Built [GCP cloud functions](https://firebase.google.com/docs/functions/schedule-functions) for different use cases such as webhook integration, saving received events to our Firestore database, and streaming data to Bigquery database, with over **300k** events successfully saved.",
+        "Possess average experience writing deployment pipelines using [Ansible](https://www.ansible.com/).",
+        "Experience in optimizing animation and page rendering to **60fps**."
+      ],
+      "keywords": [
+        {
+          "link": "https://www.typescriptlang.org/",
+          "name": "TypeScript"
+        },
+        {
+          "link": "https://react.dev/",
+          "name": "React"
+        },
+        {
+          "link": "https://nextjs.org/",
+          "name": "Next.js"
+        },
+        {
+          "link": "https://vuejs.org/",
+          "name": "Vue"
+        },
+        {
+          "link": "https://nuxtjs.org/",
+          "name": "Nuxt.js"
+        },
+        {
+          "link": "https://mui.com/",
+          "name": "MUI"
+        },
+        {
+          "link": "https://tailwindcss.com/",
+          "name": "Node.js"
+        },
+        {
+          "link": "https://www.fastify.io/",
+          "name": "Fastify"
+        },
+        {
+          "link": "https://www.gatsbyjs.org/",
+          "name": "Gatsby"
+        },
+        {
+          "link": "https://tailwindcss.com/",
+          "name": "Tailwind"
+        },
+        {
+          "link": "https://firebase.google.com/",
+          "name": "Firebase"
+        },
+        {
+          "link": "https://cloud.google.com/",
+          "name": "GCP"
+        },
+        {
+          "link": "https://cloud.google.com/bigquery",
+          "name": "Bigquery"
+        },
+        {
+          "link": "https://mixpanel.com/",
+          "name": "Mixpanel"
+        },
+        {
+          "link": "https://www.redhat.com/en/topics/devops/what-is-ci-cd",
+          "name": "CI/CD"
+        }
+      ],
+      "name": "Hashtagfox",
+      "position": "Software Engineer",
+      "startDate": "01 Jan 2020",
+      "endDate": "PRESENT",
+      "url": "https://www.hashtagfox.com/"
+    },
+    {
+      "highlights": [
+        "Developed high level microservices APIS that are based on PHP/Laravel.",
+        "Reviewed & modified other teammates code",
+        "Developed applications in modern workflows with CI\\CD pipelines and an iterative building process.",
+        "Wrote unit tests and designing different test cases."
+      ],
+      "keywords": [
+        {
+          "link": "https://www.php.net/",
+          "name": "PHP"
+        },
+        {
+          "link": "https://laravel.com/",
+          "name": "Laravel"
+        },
+        {
+          "link": "https://vuejs.org/",
+          "name": "Vue"
+        },
+        {
+          "link": "https://tailwindcss.com/",
+          "name": "Tailwind"
+        }
+      ],
+      "name": "Team4Hire",
+      "position": "Software Engineer",
+      "startDate": "00 Oct 2019",
+      "endDate": "01 Jan 2020",
+      "url": "https://team4hire.nl/"
+    },
+    {
+      "highlights": [
+        "Joined Corptia as a front-end web developer after being invited by the founders.",
+        "Developed a Vue.js boilerplate admin panel, featuring a set of complex components like CRUD-generator component, while prioritizing ease of use, reusability, and performance.",
+        "Established a seamless GraphQL-based development workflow, leveraging GraphQL features such as fragments and aliases.",
+        "Collaborated closely with the design team and worked closely with the backend team to launch our GraphQL interfaces, and often provided additional help to the backend team.",
+        "Provided technical support to the mobile team on using Git and GraphQL."
+      ],
+      "keywords": [
+        {
+          "link": "https://vuejs.org/",
+          "name": "Vue"
+        },
+        {
+          "link": "https://graphql.org/",
+          "name": "GraphQL"
+        },
+        {
+          "link": "https://www.apollographql.com/",
+          "name": "Apollo"
+        },
+        {
+          "link": "https://nuxtjs.org/",
+          "name": "Nuxt.js"
+        },
+        {
+          "link": "https://nodejs.org/en",
+          "name": "Node.js"
+        },
+        {
+          "link": "https://expressjs.com/",
+          "name": "Express.js"
+        },
+        {
+          "link": "https://tailwindcss.com/",
+          "name": "Tailwind"
+        }
+      ],
+      "name": "Corptia",
+      "position": "Software Engineer",
+      "startDate": "01 Jan 2019",
+      "endDate": "30 Nov 2019",
+      "url": "https://corptia.com/"
+    },
+    {
+      "highlights": [
+        "Started my career in the company as a junior developer.",
+        "Worked with top-class developers and learned a lot in a short amount of time.",
+        "Completed tasks assigned to me in various projects, which helped me gain extensive knowledge and experience."
+      ],
+      "keywords": [
+        {
+          "link": "https://vuejs.org/",
+          "name": "Vue"
+        },
+        {
+          "link": "https://graphql.org/",
+          "name": "GraphQL"
+        },
+        {
+          "link": "https://www.apollographql.com/",
+          "name": "Apollo"
+        },
+        {
+          "link": "https://nuxtjs.org/",
+          "name": "Nuxt.js"
+        },
+        {
+          "link": "https://nodejs.org/en",
+          "name": "Node.js"
+        },
+        {
+          "link": "https://expressjs.com/",
+          "name": "Express.js"
+        },
+        {
+          "link": "https://sass-lang.com/",
+          "name": "Sass"
+        }
+      ],
+      "name": "Baianat",
+      "position": "Junior Software Engineer",
+      "startDate": "01 Aug 2018",
+      "endDate": "30 Dec 2018",
+      "url": "https://www.baianat.com/"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "level": "Master",
+      "name": "Web Development"
+    }
+  ]
+}
