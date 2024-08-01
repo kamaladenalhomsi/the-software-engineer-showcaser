@@ -90,18 +90,20 @@
     {
       "highlights": [
         "Led the entire frontend process, supervising junior developers, creating technical tasks with the product owner and design team, reviewing PRs, and evaluating technical solutions.",
-        "Leveraged frontend architectures (Monorepos and Microservices) with comprehensive testing (unit, integration, and end-to-end) and **CI/CD**.",
+        "Developed end-to-end microservices based apps leaveraging AsyncAPI as EDA solution and webpack module federation plugin.",
+        "Have extensive experience in designing and implementing test cases (unit, integration, and end-to-end) as well as **CI/CD** pipelines.",
         "Developed the [Hashtagfox.com](https://hashtagfox.com/) platform using Vue.js with more than **100 components** and **100 test cases**. Achieved a code coverage of **75%**.",
         "Developed an email customer support platform (similar to Gmail) for internal teams using React.js utilized by our customer support.",
         "Maintained large Node.js-TypeScript code bases (**50+ classes**) including internal and third-party services using an **MVC** architecture.",
         "Solely built an internal task manager, with features such as real-time updates and activity logs, using TypeScript, React, Node.js, and Firebase.",
-        "Developed over **six** [Gatsby](https://www.gatsbyjs.com/) landing pages that are SEO ready and have less than **one second** loading time. E.g. [Coolpic.io](https://coolpic.io)",
-        "Developed multiple payment interfaces using Stripe, utilizing [Stripe elements](https://stripe.com/payments/elements) as well as standalone Stripe integration.",
+        "Developed over **six** Gatsby landing pages that are SEO ready and have less than **one second** loading time. E.g. [Coolpic.io](https://coolpic.io)",
+        "Developed multiple payment interfaces using Stripe, utilizing Stripe elements as well as standalone Stripe integration.",
         "Built **8+ projects** with Firebase's various tools such as Firestore, real-time databases, authentication, hosting, storage, and cloud functions.",
         "Built an advanced analytics dashboard, encompassing complex SQL aggregation queries consisting of more than **450 lines**, and developed over **20 queries**. The React.js-based dashboard provided critical insights to the organization, facilitating informed decision-making and leading to over **240k** [app installs](https://apps.apple.com/us/app/boost-app-social/id1551991915).",
-        "Demonstrated proficiency with [Google's Bigquery](https://cloud.google.com/bigquery), optimized SQL aggregation queries using data partitioning and clustering, saving **46%** of the cost and accelerating query processing times **by six times.**",
-        "Built [GCP cloud functions](https://firebase.google.com/docs/functions/schedule-functions) for different use cases such as webhook integration, saving received events to our Firestore database, and streaming data to Bigquery database, with over **300k** events successfully saved.",
-        "Possess average experience writing deployment pipelines using [Ansible](https://www.ansible.com/).",
+        "Demonstrated proficiency with Google's Bigquery, optimized SQL aggregation queries using data partitioning and clustering, saving **46%** of the cost and accelerating query processing times **by six times.**",
+        "Built GCP cloud functions for different use cases such as webhook integration, saving received events to our Firestore database, and streaming data to Bigquery database, with over **300k** events successfully saved.",
+        "Built a Google Maps like location searching feature utilizing Elasticsearch and Google Maps API.",
+        "Possess average experience writing deployment pipelines using Ansible.",
         "Experience in optimizing animation and page rendering to **60fps**."
       ],
       "keywords": [
@@ -175,7 +177,6 @@
     {
       "highlights": [
         "Developed high level microservices APIS that are based on PHP/Laravel.",
-        "Reviewed & modified other teammates code",
         "Developed applications in modern workflows with CI\\CD pipelines and an iterative building process.",
         "Wrote unit tests and designing different test cases."
       ],
