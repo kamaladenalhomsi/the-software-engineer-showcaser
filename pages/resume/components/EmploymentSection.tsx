@@ -18,21 +18,22 @@ function EmploymentSection({ work }: EmploymentSectionProps) {
       return differenceInYears(jobEndDate, new Date(job.startDate));
     }, [job]);
     const diffInMonths = useMemo(() => {
-      const diffInMonthsInner = differenceInMonths(
-        jobEndDate,
-        diffInYears > 0 ? startOfYear(jobEndDate) : new Date(job.startDate),
-      ) + 1
+      const diffInMonthsInner =
+        differenceInMonths(
+          jobEndDate,
+          diffInYears > 0 ? startOfYear(jobEndDate) : new Date(job.startDate),
+        ) + 1;
       return (
-        diffInMonthsInner +
-        (diffInMonthsInner === 1 ? ' month' : ' months')
+        diffInMonthsInner + (diffInMonthsInner === 1 ? ' month' : ' months')
       );
     }, [job]);
     const jobPeriodInString = useMemo(() => {
-      return `${diffInYears > 0 ? diffInYears + ' years' : ''} ${diffInMonths}`
-    }, [diffInYears, diffInMonths])
+      return `${diffInYears > 0 ? diffInYears + ' years' : ''} ${diffInMonths}`;
+    }, [diffInYears, diffInMonths]);
 
-    const startDate = job.startDate.slice(2)
-    const endDate = job.endDate !== 'PRESENT' ? job.endDate.slice(2) : 'PRESENT'
+    const startDate = job.startDate.slice(2);
+    const endDate =
+      job.endDate !== 'PRESENT' ? job.endDate.slice(2) : 'PRESENT';
 
     return (
       <div className="mb-2" key={index}>
@@ -41,6 +42,7 @@ function EmploymentSection({ work }: EmploymentSectionProps) {
           middle={job.name}
           middleUrl={job.url}
           right={`${startDate} - ${endDate} (${jobPeriodInString})`}
+          location={job.location}
         />
 
         <SectionSummary content={job.summary} />

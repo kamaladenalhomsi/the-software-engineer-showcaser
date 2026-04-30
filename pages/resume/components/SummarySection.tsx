@@ -6,10 +6,10 @@ export { SummarySection };
 type SummarySectionProps = { summary: string };
 function SummarySection({ summary }: SummarySectionProps) {
   return (
-    <section className="mb-4 text-sm text-gray-700 space-y-2">
+    <section className="mb-4 space-y-1">
       <ReactMarkdown
         components={{
-          p: ({ children }) => <p className="leading-snug">{children}</p>,
+          p: ({ children }) => <p className="leading-[1.66rem]">{children}</p>,
           a: ({ href, children }) => (
             <a href={href} target="_blank" className="underline">
               {children}

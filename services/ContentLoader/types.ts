@@ -25,6 +25,7 @@ export interface Work {
   summary: string;
   highlights: string[];
   keywords: Keyword[];
+  location?: string;
 }
 
 export interface BasicInfo {

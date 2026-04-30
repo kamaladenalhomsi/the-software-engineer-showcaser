@@ -1,8 +1,8 @@
 {
   "awards": [
+    "**Co-founded CGI art studio [vanhomsi.com](http://vanhomsi.com)**: Grew it to 53,000+ Instagram followers, two artists working full-time with us. Long term partnerships with renowned brands in France and Italy.",
     "**Started writing code at 13 years old**: The first programming language I learned was Ruby.",
-    "**Hired professionally at 16 years old**: Youngest hire in a 30+ people software company (Baianat).",
-    "**Bought my first car before 18 years old**: a 2009 Red Chevrolet Optra with earnings from software development."
+    "**Hired professionally at 16 years old**: Youngest hire in a 30+ people software company (Baianat)."
   ],
   "additionalExperience": [
     "**[Vuesax RTL Support](https://github.com/lusaxweb/vuesax/pull/659)**: Solely added RTL support to the [Vuesax UI](https://vuesax.com/) library.",
@@ -12,7 +12,7 @@
   "basics": {
     "image": "/assets/images/4.jpg",
     "name": "Kamal Eddin Alhumsi",
-    "summary": "Helped my former employer achieve a 7-figure exit, co-founded CGI art studio [vanhomsi.com](http://vanhomsi.com)\n\nEngineer turned founder. Co-founder of VAN HOMSI, a CGI studio.\n\nI focus on turning ideas into products, from early validation and positioning to building and delivering real solutions. Experienced across social media, SaaS, and creative industries.\n\nStrong full-stack engineering background (+8 years of experience), building scalable web products with React, Node.js, TypeScript, and modern cloud infrastructure.\n\nOpen to new projects. If you are building something interesting that solves a real problem, feel free to reach out.",
+    "summary": "Engineer turned founder with 8+ years of experience building and shipping digital products. Helped my former employer achieve a 7-figure exit and co-founded VAN HOMSI (vanhomsi.com), a CGI studio. I focus on turning ideas into products, from early validation and positioning to building and delivering real solutions, with experience across social media, SaaS, and creative industries. Strong full-stack background in React, Node.js, TypeScript, and modern cloud infrastructure. Open to new projects and opportunities to work on meaningful problems.",
     "nameKerned": [
       {
         "character": "K",
@@ -75,8 +75,8 @@
       },
       {
         "icon": "globe",
-        "url": "https://blog.kamal.alhumsi.me",
-        "username": "blog.kamal.alhumsi.me"
+        "url": "https://www.vanhomsi.com",
+        "username": "www.vanhomsi.com"
       },
       {
         "icon": "github",
@@ -109,7 +109,8 @@
       "position": "Co-Founder & Head of Operations",
       "startDate": "01 Aug 2024",
       "endDate": "PRESENT",
-      "url": "https://vanhomsi.com"
+      "url": "https://vanhomsi.com",
+      "location": "Amsterdam, Netherlands & Damascus, Syria"
     },
     {
       "highlights": [
@@ -185,7 +186,8 @@
       "position": "Product Engineer (Full-Stack Developer & Data Engineer and Analyst)",
       "startDate": "01 Jan 2020",
       "endDate": "01 Aug 2024",
-      "url": "https://www.hashtagfox.com/"
+      "url": "https://www.hashtagfox.com/",
+      "location": "Tallinn, Estonia"
     },
     {
       "highlights": [
@@ -215,7 +217,8 @@
       "position": "Full-Stack Web Developer",
       "startDate": "00 Oct 2019",
       "endDate": "01 Jan 2020",
-      "url": "https://team4hire.nl/"
+      "url": "https://team4hire.nl/",
+      "location": "Utrecht, Netherlands"
     },
     {
       "highlights": [
@@ -259,7 +262,8 @@
       "position": "Full-Stack Web Developer",
       "startDate": "01 Jan 2019",
       "endDate": "30 Nov 2019",
-      "url": "https://corptia.com/"
+      "url": "https://corptia.com/",
+      "location": "Cairo, Egypt"
     },
     {
       "highlights": [
@@ -301,7 +305,8 @@
       "position": "Full-Stack Web Developer",
       "startDate": "01 Aug 2018",
       "endDate": "30 Dec 2018",
-      "url": "https://www.baianat.com/"
+      "url": "https://www.baianat.com/",
+      "location": "Cairo, Egypt"
     }
   ],
   "skills": [
