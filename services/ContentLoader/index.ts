@@ -2,6 +2,7 @@ import {
   AdditionalExperience,
   Awards,
   BasicInfo,
+  Certificate,
   Education,
   Work,
 } from './types';
@@ -37,6 +38,20 @@ export function getEducation(resumeData: unknown): Education[] {
   }
 
   return resumeData[field] as Education[];
+}
+
+export function getCertificates(resumeData: unknown): Certificate[] {
+  const field = 'certificates';
+
+  if (
+    resumeData === null ||
+    typeof resumeData !== 'object' ||
+    !(field in resumeData)
+  ) {
+    return [];
+  }
+
+  return resumeData[field] as Certificate[];
 }
 
 export function getAwards(resumeData: unknown): Awards {

@@ -3,6 +3,7 @@ import {
   getAdditionalExperience,
   getAwards,
   getBasicInfo,
+  getCertificates,
   getEducation,
   getWork,
 } from '#root/services/ContentLoader';
@@ -14,6 +15,7 @@ export function onBeforeRender() {
   const awards = getAwards(resumeJson);
   const education = getEducation(resumeJson);
   const additionalExperience = getAdditionalExperience(resumeJson);
+  const certificates = getCertificates(resumeJson);
 
   const pageProps: ResumePageProps = {
     basicInfo,
@@ -21,6 +23,7 @@ export function onBeforeRender() {
     awards,
     education,
     additionalExperience,
+    certificates,
   };
 
   return {

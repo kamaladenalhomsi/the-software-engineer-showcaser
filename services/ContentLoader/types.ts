@@ -34,6 +34,7 @@ export interface BasicInfo {
   phone: string;
   url: string;
   address: string;
+  summary?: string;
   email: Profile
   profiles: Profile[];
 }
@@ -45,6 +46,13 @@ export interface Education {
   highlights: string[];
   institution: string;
   url: string;
+}
+
+export interface Certificate {
+  name: string;
+  issuer: string;
+  url: string;
+  highlights?: string[];
 }
 
 export type Awards = string[];

@@ -12,6 +12,7 @@
   "basics": {
     "image": "/assets/images/profile-photo2.jpg",
     "name": "Kamal Eddin Alhumsi",
+    "summary": "Helped my former employer achieve a 7-figure exit, co-founded CGI art studio [vanhomsi.com](http://vanhomsi.com)\n\nEngineer turned founder. Co-founder of VAN HOMSI, a CGI studio.\n\nI focus on turning ideas into products, from early validation and positioning to building and delivering real solutions. Experienced across social media, SaaS, and creative industries.\n\nStrong full-stack engineering background (+8 years of experience), building scalable web products with React, Node.js, TypeScript, and modern cloud infrastructure.\n\nOpen to new projects. If you are building something interesting that solves a real problem, feel free to reach out.",
     "nameKerned": [
       {
         "character": "K",
@@ -86,23 +87,37 @@
     "url": "https://kamal.alhumsi.me"
   },
   "education": [],
+  "certificates": [
+    {
+      "name": "Forward Incubator — 1st Place in Technology",
+      "issuer": "Forward Inc",
+      "url": "https://forwardinc.verified.cv/en/verify/82832449197640",
+      "highlights": ["Completed the Forward Incubator program and won first place in the technology track."]
+    }
+  ],
   "work": [
     {
       "highlights": [
-        "Led the entire frontend process, supervising junior developers, creating technical tasks with the product owner and design team, reviewing PRs, and evaluating technical solutions.",
-        "Leveraged frontend architectures (Monorepos and Microservices) with comprehensive testing (unit, integration, and end-to-end) and **CI/CD**.",
-        "Developed the [Hashtagfox.com](https://hashtagfox.com/) platform using Vue.js with more than **100 components** and **100 test cases**. Achieved a code coverage of **75%**.",
+        "Co-founded CGI production studio specializing in photorealistic commercial content for cosmetics and fragrance brands. Acquired and delivered projects for clients in France (Paris) and Italy. Some of our notable clients are Majouri Paris, HFC Paris, Noeme Paris and Officina Delle Essenze.",
+        "Owned end-to-end operations: led sales conversations and closed deals with international clients, scoped projects, managed production pipeline, ensured deliverables met quality standards and client requirements, and handled client iteration feedback.",
+        "Developed market positioning strategy through iterative hypothesis testing and pivots, ultimately establishing product-market fit in competitive luxury CGI market. Led content creation and marketing efforts, growing brand to 53,000+ Instagram followers.",
+        "As we grew, I took ownership of building the team, leading our first hire by managing the full process from sourcing and screening to interviewing and selecting the right 3D artist.",
+        "Supervised entire production pipeline from client acquisition through final delivery, balancing creative quality, technical execution, and commercial viability to maintain profitability while scaling operations."
+      ],
+      "keywords": [],
+      "name": "Van Homsi",
+      "position": "Co-Founder & Head of Operations",
+      "startDate": "01 Aug 2024",
+      "endDate": "PRESENT",
+      "url": "https://vanhomsi.com"
+    },
+    {
+      "highlights": [
+        "Led the entire development process, supervising junior developers, creating technical tasks with the product owner and design team, reviewing PRs, and evaluating technical solutions.",
+        "Architected and owned end-to-end business intelligence infrastructure as data engineer and analyst: built event processing pipeline (GCP Cloud Functions, Firestore, BigQuery) handling 300K+ events, designed complex SQL aggregation queries with data partitioning and clustering that reduced costs 46% and accelerated processing 6x, and developed React-based BI dashboard providing critical insights that enabled data-driven decisions resulting in 240K app installs.",
         "Developed an email customer support platform (similar to Gmail) for internal teams using React.js utilized by our customer support.",
-        "Maintained large Node.js-TypeScript code bases (**50+ classes**) including internal and third-party services using an **MVC** architecture.",
         "Solely built an internal task manager, with features such as real-time updates and activity logs, using TypeScript, React, Node.js, and Firebase.",
-        "Developed over **six** [Gatsby](https://www.gatsbyjs.com/) landing pages that are SEO ready and have less than **one second** loading time. E.g. [Coolpic.io](https://coolpic.io)",
-        "Developed multiple payment interfaces using Stripe, utilizing [Stripe elements](https://stripe.com/payments/elements) as well as standalone Stripe integration.",
-        "Built **8+ projects** with Firebase's various tools such as Firestore, real-time databases, authentication, hosting, storage, and cloud functions.",
-        "Built an advanced analytics dashboard, encompassing complex SQL aggregation queries consisting of more than **450 lines**, and developed over **20 queries**. The React.js-based dashboard provided critical insights to the organization, facilitating informed decision-making and leading to over **240k** [app installs](https://apps.apple.com/us/app/boost-app-social/id1551991915).",
-        "Demonstrated proficiency with [Google's Bigquery](https://cloud.google.com/bigquery), optimized SQL aggregation queries using data partitioning and clustering, saving **46%** of the cost and accelerating query processing times **by six times.**",
-        "Built [GCP cloud functions](https://firebase.google.com/docs/functions/schedule-functions) for different use cases such as webhook integration, saving received events to our Firestore database, and streaming data to Bigquery database, with over **300k** events successfully saved.",
-        "Possess average experience writing deployment pipelines using [Ansible](https://www.ansible.com/).",
-        "Experience in optimizing animation and page rendering to **60fps**."
+        "Developed multiple payment interfaces using Stripe, utilizing [Stripe elements](https://stripe.com/payments/elements) as well as standalone Stripe integration."
       ],
       "keywords": [
         {
@@ -166,10 +181,10 @@
           "name": "CI/CD"
         }
       ],
-      "name": "Hashtagfox",
-      "position": "Software Engineer",
+      "name": "Hashtagfox (Boost App Social)",
+      "position": "Product Engineer (Full-Stack Developer & Data Engineer and Analyst)",
       "startDate": "01 Jan 2020",
-      "endDate": "PRESENT",
+      "endDate": "01 Aug 2024",
       "url": "https://www.hashtagfox.com/"
     },
     {
@@ -198,7 +213,7 @@
         }
       ],
       "name": "Team4Hire",
-      "position": "Software Engineer",
+      "position": "Full-Stack Web Developer",
       "startDate": "00 Oct 2019",
       "endDate": "01 Jan 2020",
       "url": "https://team4hire.nl/"
@@ -242,7 +257,7 @@
         }
       ],
       "name": "Corptia",
-      "position": "Software Engineer",
+      "position": "Full-Stack Web Developer",
       "startDate": "01 Jan 2019",
       "endDate": "30 Nov 2019",
       "url": "https://corptia.com/"
@@ -284,7 +299,7 @@
         }
       ],
       "name": "Baianat",
-      "position": "Junior Software Engineer",
+      "position": "Full-Stack Web Developer",
       "startDate": "01 Aug 2018",
       "endDate": "30 Dec 2018",
       "url": "https://www.baianat.com/"
