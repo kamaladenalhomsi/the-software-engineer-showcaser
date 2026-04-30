@@ -4,11 +4,14 @@ import { AddressBar, NavLink } from './components/AddressBar';
 import { EmploymentSection } from './components/EmploymentSection';
 import { AwardsSection } from './components/AwardsSection';
 import { EducationSection } from './components/EducationSection';
+import { SummarySection } from './components/SummarySection';
+import { CertificatesSection } from './components/CertificatesSection';
 import { DocumentProps, PageProps } from '#root/renderer/types';
 import {
   AdditionalExperience as AdditionalExperienceType,
   Awards,
   BasicInfo,
+  Certificate,
   Education,
   Work,
 } from '#root/services/ContentLoader/types';
@@ -30,6 +33,7 @@ export type ResumePageProps = PageProps & {
   awards: Awards;
   education: Education[];
   additionalExperience: AdditionalExperienceType;
+  certificates: Certificate[];
 };
 
 function Page({
@@ -38,8 +42,9 @@ function Page({
   awards,
   education,
   additionalExperience,
+  certificates,
 }: ResumePageProps) {
-  const { profiles, email, ...basicInfoNoProfiles } = basicInfo;
+  const { profiles, email, summary, ...basicInfoNoProfiles } = basicInfo;
 
   return (
     <>
@@ -58,9 +63,11 @@ function Page({
           <AddressBar links={profiles} />
         </div>
       </div>
+      {summary && <SummarySection summary={summary} />}
       <EmploymentSection work={work} />
       <AwardsSection awards={awards} />
       <AdditionalExperience additionalExperience={additionalExperience} />
+      <CertificatesSection certificates={certificates} />
     </>
   );
 }
