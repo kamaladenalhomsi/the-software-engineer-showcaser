@@ -3,8 +3,8 @@
     "dev": "npm run server",
     "prod": "npm run build && npm run server:prod",
     "build": "tsc --noEmit && vite build",
-    "server": "ts-node ./server/index.ts",
-    "server:prod": "cross-env NODE_ENV=production ts-node ./server/index.ts",
+    "server": "bun ./server/index.ts",
+    "server:prod": "cross-env NODE_ENV=production bun ./server/index.ts",
     "lint:fix": "eslint . --ext .ts,.js,.tsx --fix"
   },
   "imports": {
@@ -24,6 +24,7 @@
     "date-fns": "^2.29.3",
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
+    "isomorphic-dompurify": "^2.36.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-ga4": "^2.1.0",
