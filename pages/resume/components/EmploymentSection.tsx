@@ -41,7 +41,7 @@ function EmploymentSection({ work }: EmploymentSectionProps) {
       job.endDate === 'PRESENT' ? 'Present' : format(jobEndDate, 'MMM yyyy');
 
     return (
-      <div className="mb-4" key={index}>
+      <div className="mb-5" key={index}>
         <div className="flex items-baseline justify-between">
           <p className="font-bold text-lg">
             {job.position}

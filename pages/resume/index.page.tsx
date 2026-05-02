@@ -45,7 +45,7 @@ function Page({
     <>
       <base target="_blank"></base>
       <Header basicInfo={basicInfo} />
-      <div style={{ fontSize: '1.1em' }}>
+      <div className="mt-6">
         {basicInfo.summary && <SummarySection summary={basicInfo.summary} />}
         <TechnicalSkillsSection skills={technicalSkills} />
         <EmploymentSection work={work} />

@@ -8,7 +8,7 @@ type AwardsSectionProps = { awards: Awards };
 function AwardsSection({ awards }: AwardsSectionProps) {
   return (
     <SectionContainer title="Notable Achievements">
-      <ul className="list-disc ml-5 space-y-0.5 mb-2">
+      <ul className="list-disc ml-5 space-y-1.5 mb-2">
         {awards.map((item, i) => (
           <li key={i} className="leading-snug">{item}</li>
         ))}

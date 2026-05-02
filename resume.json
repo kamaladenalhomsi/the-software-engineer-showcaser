@@ -51,7 +51,7 @@
         "Co-founded a CGI production studio specialising in photorealistic commercial content for cosmetics and fragrance brands; acquired and delivered projects for clients in France and Italy (Majouri Paris, HFC Paris, Noeme Paris, Officina Delle Essenze).",
         "Owned end-to-end operations: led sales conversations with international clients, scoped projects, managed production pipeline, and handled client feedback and iteration.",
         "Developed market positioning strategy through iterative hypothesis testing, establishing product-market fit in the competitive luxury CGI market.",
-        "Led content creation and marketing, growing the brand to 53,000+ Instagram followers.",
+        "Led content creation and marketing, growing the brand to **53,000+ Instagram followers**.",
         "Managed full recruitment cycle for the studio's first hire: sourcing, screening, interviewing, and selecting a 3D artist."
       ],
       "stack": null,
@@ -66,7 +66,7 @@
       "location": "Tallinn, Estonia",
       "highlights": [
         "Led the full development process: supervised junior developers, created technical tasks with the founder and design team, reviewed pull requests, and evaluated technical solutions.",
-        "Architected and owned end-to-end business intelligence infrastructure: built an event processing pipeline (GCP Cloud Functions, Firestore, BigQuery) handling +10 million events; designed SQL aggregation queries with data partitioning and clustering, **reducing costs by 46** and accelerating processing 6x.",
+        "Architected and owned end-to-end business intelligence infrastructure: built an event processing pipeline (GCP Cloud Functions, Firestore, BigQuery) handling +10 million events; designed SQL aggregation queries with data partitioning and clustering, **reducing costs by 46%** and accelerating processing 6x.",
         "Developed a React-based BI dashboard providing insights that enabled data-driven decisions, contributing to **more than a million app installs**.",
         "Built an internal email customer support platform (similar to Zendesk) for support teams using React.js.",
         "Solely built an internal task manager with real-time updates and activity logs using TypeScript, React, Node.js, and Firebase.",
