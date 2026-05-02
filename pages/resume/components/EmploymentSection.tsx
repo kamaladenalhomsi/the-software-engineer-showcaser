@@ -1,11 +1,13 @@
 import { SectionContainer } from '#root/components/SectionContainer';
-import { ListType, SectionList } from '#root/components/SectionList';
-import { SectionSummary } from '#root/components/SectionSummary';
-import { SectionTags } from '#root/components/SectionTags';
-import { SectionTitle } from '#root/components/SectionTitle';
 import { Work } from '#root/services/ContentLoader/types';
-import { differenceInMonths, differenceInYears, startOfYear } from 'date-fns';
+import {
+  differenceInMonths,
+  differenceInYears,
+  startOfYear,
+  format,
+} from 'date-fns';
 import React, { useMemo } from 'react';
+import ReactMarkdown from 'react-markdown';
 
 export { EmploymentSection };
 
@@ -14,45 +16,72 @@ function EmploymentSection({ work }: EmploymentSectionProps) {
   const subSections = work.map((job, index) => {
     const jobEndDate =
       job.endDate === 'PRESENT' ? new Date() : new Date(job.endDate);
-    const diffInYears = useMemo(() => {
-      return differenceInYears(jobEndDate, new Date(job.startDate));
-    }, [job]);
+    const jobStartDate = new Date(job.startDate);
+
+    const diffInYears = useMemo(
+      () => differenceInYears(jobEndDate, jobStartDate),
+      [job],
+    );
     const diffInMonths = useMemo(() => {
-      const diffInMonthsInner =
+      const months =
         differenceInMonths(
           jobEndDate,
-          diffInYears > 0 ? startOfYear(jobEndDate) : new Date(job.startDate),
+          diffInYears > 0 ? startOfYear(jobEndDate) : jobStartDate,
         ) + 1;
-      return (
-        diffInMonthsInner + (diffInMonthsInner === 1 ? ' month' : ' months')
-      );
+      return months + (months === 1 ? ' month' : ' months');
     }, [job]);
-    const jobPeriodInString = useMemo(() => {
-      return `${diffInYears > 0 ? diffInYears + ' years' : ''} ${diffInMonths}`;
-    }, [diffInYears, diffInMonths]);
 
-    const startDate = job.startDate.slice(2);
-    const endDate =
-      job.endDate !== 'PRESENT' ? job.endDate.slice(2) : 'PRESENT';
+    const duration = useMemo(
+      () => `${diffInYears > 0 ? diffInYears + ' years ' : ''}${diffInMonths}`,
+      [diffInYears, diffInMonths],
+    );
+
+    const startLabel = format(jobStartDate, 'MMM yyyy');
+    const endLabel =
+      job.endDate === 'PRESENT' ? 'Present' : format(jobEndDate, 'MMM yyyy');
 
     return (
-      <div className="mb-2" key={index}>
-        <SectionTitle
-          left={job.position}
-          middle={job.name}
-          middleUrl={job.url}
-          right={`${startDate} - ${endDate} (${jobPeriodInString})`}
-          location={job.location}
-        />
+      <div className="mb-5" key={index}>
+        <div className="flex items-baseline justify-between">
+          <p className="font-bold text-lg">
+            {job.position}
+            <span className="text-lg font-normal text-gray-400 mx-2">|</span>
+            {job.name}
+          </p>
+          <p className="text-xs sm:text-sm print:text-sm whitespace-nowrap ml-4 shrink-0">
+            {startLabel} – {endLabel}
+          </p>
+        </div>
 
-        <SectionSummary content={job.summary} />
+        {job.location && (
+          <p className="italic text-xs sm:text-sm print:text-sm text-gray-600 mb-1">
+            {job.location}
+            {job.endDate !== 'PRESENT' && ` · ${duration}`}
+          </p>
+        )}
 
-        <SectionList type={ListType.CHECKMARK} points={job.highlights} />
+        <ul className="list-disc ml-5 mt-1 space-y-0.5">
+          {job.highlights.map((point, i) => (
+            <li key={i} className="leading-snug">
+              <ReactMarkdown
+                components={{ p: ({ children }) => <>{children}</> }}
+              >
+                {point}
+              </ReactMarkdown>
+            </li>
+          ))}
+        </ul>
 
-        <SectionTags tags={job.keywords} />
+        {job.stack && (
+          <p className="italic text-xs sm:text-sm print:text-sm mt-1 text-gray-700">
+            Stack: {job.stack}
+          </p>
+        )}
       </div>
     );
   });
 
-  return <SectionContainer title="Employment">{subSections}</SectionContainer>;
+  return (
+    <SectionContainer title="Work Experience">{subSections}</SectionContainer>
+  );
 }

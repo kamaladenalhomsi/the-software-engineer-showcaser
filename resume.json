@@ -1,66 +1,9 @@
 {
-  "awards": [
-    "**Co-founded CGI art studio [vanhomsi.com](http://vanhomsi.com)**: Grew it to 53,000+ Instagram followers, two artists working full-time with us. Long term partnerships with renowned brands in France and Italy.",
-    "**Started writing code at 13 years old**: The first programming language I learned was Ruby.",
-    "**Hired professionally at 16 years old**: Youngest hire in a 30+ people software company (Baianat)."
-  ],
-  "additionalExperience": [
-    "**[Vuesax RTL Support](https://github.com/lusaxweb/vuesax/pull/659)**: Solely added RTL support to the [Vuesax UI](https://vuesax.com/) library.",
-    "**[Turning E-commerce](https://www.turing.com/)**: The first assessment of many that I succeeded for [Turing.com](https://turing.com) (Progressive E-commerce Web App).",
-    "**[Hacktoberrank](https://github.com/paulodiovani/hacktoberrank)**: Contributed to the UI that ranked all participants in [Hacktoberfest](https://hacktoberfest.com/) 2019."
-  ],
   "basics": {
+    "name": "Kamal Alhumsi",
+    "title": "Product Engineer & Founder",
+    "summary": "Engineer turned founder with 8+ years of experience building and shipping digital products. Co-founded VAN HOMSI, a CGI studio, and helped a former employer achieve a **7-figure exit**. Experienced across social media, SaaS, and creative industries, with a strong full-stack background in React, Node.js, TypeScript, and modern cloud infrastructure. Skilled at taking ideas from early validation and market positioning through to production delivery.",
     "image": "/assets/images/4.jpg",
-    "name": "Kamal Eddin Alhumsi",
-    "summary": "Engineer turned founder with 8+ years of experience building and shipping digital products. Helped my former employer achieve a 7-figure exit and co-founded VAN HOMSI (vanhomsi.com), a CGI studio. I focus on turning ideas into products, from early validation and positioning to building and delivering real solutions, with experience across social media, SaaS, and creative industries. Strong full-stack background in React, Node.js, TypeScript, and modern cloud infrastructure. Open to new projects and opportunities to work on meaningful problems.",
-    "nameKerned": [
-      {
-        "character": "K",
-        "letterSpacing": "-0.01em"
-      },
-      {
-        "character": "a",
-        "letterSpacing": "-0.05em"
-      },
-      {
-        "character": "m",
-        "letterSpacing": "-0.08em"
-      },
-      {
-        "character": "a",
-        "letterSpacing": "-.05em"
-      },
-      {
-        "character": "l",
-        "letterSpacing": "-.06em"
-      },
-      " ",
-      {
-        "character": "A",
-        "letterSpacing": "0.02em"
-      },
-      {
-        "character": "l",
-        "letterSpacing": "0.02em"
-      },
-      {
-        "character": "h",
-        "letterSpacing": "-.09em"
-      },
-      {
-        "character": "u",
-        "letterSpacing": "-.03em"
-      },
-      {
-        "character": "m",
-        "letterSpacing": "-.03em"
-      },
-      {
-        "character": "s",
-        "letterSpacing": "-.04em"
-      },
-      "i"
-    ],
     "phone": "+31 687 677 539",
     "email": {
       "icon": "envelope-at",
@@ -71,253 +14,133 @@
       {
         "icon": "linkedin",
         "url": "https://www.linkedin.com/in/kamal-alhumsi/",
-        "username": "kamaleddin"
-      },
-      {
-        "icon": "globe",
-        "url": "https://www.vanhomsi.com",
-        "username": "www.vanhomsi.com"
+        "username": "linkedin.com/in/kamaleddin"
       },
       {
         "icon": "github",
         "url": "https://github.com/kamaladenalhomsi",
-        "username": "kamaladenalhomsi"
+        "username": "github.com/kamaladenalhomsi"
+      },
+      {
+        "icon": "globe",
+        "url": "https://www.vanhomsi.com",
+        "username": "vanhomsi.com"
       }
     ],
     "url": "https://kamal.alhumsi.me"
   },
-  "education": [],
-  "certificates": [
-    {
-      "name": "Forward Incubator — 1st Place in Technology",
-      "issuer": "Forward Inc",
-      "url": "https://forwardinc.verified.cv/en/verify/82832449197640",
-      "highlights": ["Completed the Forward Incubator program and won first place in the technology track."]
-    }
+  "technicalSkills": [
+    { "category": "Languages", "items": "TypeScript, JavaScript, SQL, PHP" },
+    { "category": "Frontend", "items": "React, Next.js, Vue, Nuxt.js, Gatsby, Tailwind CSS, MUI" },
+    { "category": "Backend", "items": "Node.js, Fastify, Laravel, Express.js, GraphQL, Apollo, REST APIs" },
+    { "category": "Data Engineering", "items": "BigQuery, Firestore, GCP Cloud Functions, event pipeline design, SQL aggregation, data partitioning & clustering, ETL workflows" },
+    { "category": "Analytics & BI", "items": "Mixpanel, React-based BI dashboards, data-driven product decisions" },
+    { "category": "Cloud & Infrastructure", "items": "GCP, Firebase, CI/CD" },
+    { "category": "Testing", "items": "Unit testing, test case design (Jest ecosystem)" },
+    { "category": "Other", "items": "Stripe integration, Agile/Scrum workflows" }
   ],
   "work": [
     {
-      "highlights": [
-        "Co-founded CGI production studio specializing in photorealistic commercial content for cosmetics and fragrance brands. Acquired and delivered projects for clients in France (Paris) and Italy. Some of our notable clients are Majouri Paris, HFC Paris, Noeme Paris and Officina Delle Essenze.",
-        "Owned end-to-end operations: led sales conversations and closed deals with international clients, scoped projects, managed production pipeline, ensured deliverables met quality standards and client requirements, and handled client iteration feedback.",
-        "Developed market positioning strategy through iterative hypothesis testing and pivots, ultimately establishing product-market fit in competitive luxury CGI market. Led content creation and marketing efforts, growing brand to 53,000+ Instagram followers.",
-        "As we grew, I took ownership of building the team, leading our first hire by managing the full process from sourcing and screening to interviewing and selecting the right 3D artist.",
-        "Supervised entire production pipeline from client acquisition through final delivery, balancing creative quality, technical execution, and commercial viability to maintain profitability while scaling operations."
-      ],
-      "keywords": [],
       "name": "Van Homsi",
       "position": "Co-Founder & Head of Operations",
+      "url": "https://vanhomsi.com",
       "startDate": "01 Aug 2024",
       "endDate": "PRESENT",
-      "url": "https://vanhomsi.com",
-      "location": "Amsterdam, Netherlands & Damascus, Syria"
+      "location": "Amsterdam, Netherlands & Damascus, Syria",
+      "highlights": [
+        "Co-founded a CGI production studio specialising in photorealistic commercial content for cosmetics and fragrance brands; acquired and delivered projects for clients in France and Italy (Majouri Paris, HFC Paris, Noeme Paris, Officina Delle Essenze).",
+        "Owned end-to-end operations: led sales conversations with international clients, scoped projects, managed production pipeline, and handled client feedback and iteration.",
+        "Developed market positioning strategy through iterative hypothesis testing, establishing product-market fit in the competitive luxury CGI market.",
+        "Led content creation and marketing, growing the brand to **53,000+ Instagram followers**.",
+        "Managed full recruitment cycle for the studio's first hire: sourcing, screening, interviewing, and selecting a 3D artist."
+      ],
+      "stack": null,
+      "keywords": []
     },
     {
-      "highlights": [
-        "Led the entire development process, supervising junior developers, creating technical tasks with the product owner and design team, reviewing PRs, and evaluating technical solutions.",
-        "Architected and owned end-to-end business intelligence infrastructure as data engineer and analyst: built event processing pipeline (GCP Cloud Functions, Firestore, BigQuery) handling 300K+ events, designed complex SQL aggregation queries with data partitioning and clustering that reduced costs 46% and accelerated processing 6x, and developed React-based BI dashboard providing critical insights that enabled data-driven decisions resulting in 240K app installs.",
-        "Developed an email customer support platform (similar to Gmail) for internal teams using React.js utilized by our customer support.",
-        "Solely built an internal task manager, with features such as real-time updates and activity logs, using TypeScript, React, Node.js, and Firebase.",
-        "Developed multiple payment interfaces using Stripe, utilizing [Stripe elements](https://stripe.com/payments/elements) as well as standalone Stripe integration."
-      ],
-      "keywords": [
-        {
-          "link": "https://www.typescriptlang.org/",
-          "name": "TypeScript"
-        },
-        {
-          "link": "https://react.dev/",
-          "name": "React"
-        },
-        {
-          "link": "https://nextjs.org/",
-          "name": "Next.js"
-        },
-        {
-          "link": "https://vuejs.org/",
-          "name": "Vue"
-        },
-        {
-          "link": "https://nuxtjs.org/",
-          "name": "Nuxt.js"
-        },
-        {
-          "link": "https://mui.com/",
-          "name": "MUI"
-        },
-        {
-          "link": "https://tailwindcss.com/",
-          "name": "Node.js"
-        },
-        {
-          "link": "https://www.fastify.io/",
-          "name": "Fastify"
-        },
-        {
-          "link": "https://www.gatsbyjs.org/",
-          "name": "Gatsby"
-        },
-        {
-          "link": "https://tailwindcss.com/",
-          "name": "Tailwind"
-        },
-        {
-          "link": "https://firebase.google.com/",
-          "name": "Firebase"
-        },
-        {
-          "link": "https://cloud.google.com/",
-          "name": "GCP"
-        },
-        {
-          "link": "https://cloud.google.com/bigquery",
-          "name": "Bigquery"
-        },
-        {
-          "link": "https://mixpanel.com/",
-          "name": "Mixpanel"
-        },
-        {
-          "link": "https://www.redhat.com/en/topics/devops/what-is-ci-cd",
-          "name": "CI/CD"
-        }
-      ],
       "name": "Hashtagfox (Boost App Social)",
-      "position": "Product Engineer (Full-Stack Developer & Data Engineer and Analyst)",
+      "position": "Product Engineer",
+      "url": "https://www.hashtagfox.com/",
       "startDate": "01 Jan 2020",
       "endDate": "01 Aug 2024",
-      "url": "https://www.hashtagfox.com/",
-      "location": "Tallinn, Estonia"
+      "location": "Tallinn, Estonia",
+      "highlights": [
+        "Led the full development process: supervised junior developers, created technical tasks with the founder and design team, reviewed pull requests, and evaluated technical solutions.",
+        "Architected and owned end-to-end business intelligence infrastructure: built an event processing pipeline (GCP Cloud Functions, Firestore, BigQuery) handling +10 million events; designed SQL aggregation queries with data partitioning and clustering, **reducing costs by 46%** and accelerating processing 6x.",
+        "Developed a React-based BI dashboard providing insights that enabled data-driven decisions, contributing to **more than a million app installs**.",
+        "Built an internal email customer support platform (similar to Zendesk) for support teams using React.js.",
+        "Solely built an internal task manager with real-time updates and activity logs using TypeScript, React, Node.js, and Firebase.",
+        "Developed multiple payment interfaces using Stripe Elements and standalone Stripe integration."
+      ],
+      "stack": "TypeScript, React, Next.js, Vue, Nuxt.js, MUI, Node.js, Fastify, Gatsby, Tailwind, Firebase, GCP, BigQuery, Mixpanel, CI/CD",
+      "keywords": []
     },
     {
-      "highlights": [
-        "Developed high level microservices APIS that are based on PHP/Laravel.",
-        "Developed applications in modern workflows with CI\\CD pipelines and an iterative building process.",
-        "Wrote unit tests and designing different test cases."
-      ],
-      "keywords": [
-        {
-          "link": "https://www.php.net/",
-          "name": "PHP"
-        },
-        {
-          "link": "https://laravel.com/",
-          "name": "Laravel"
-        },
-        {
-          "link": "https://vuejs.org/",
-          "name": "Vue"
-        },
-        {
-          "link": "https://tailwindcss.com/",
-          "name": "Tailwind"
-        }
-      ],
       "name": "Team4Hire",
       "position": "Full-Stack Web Developer",
-      "startDate": "00 Oct 2019",
-      "endDate": "01 Jan 2020",
       "url": "https://team4hire.nl/",
-      "location": "Utrecht, Netherlands"
+      "startDate": "01 Oct 2019",
+      "endDate": "01 Jan 2020",
+      "location": "Utrecht, Netherlands",
+      "highlights": [
+        "Developed high-level microservices APIs using PHP and Laravel.",
+        "Built applications with modern CI/CD pipelines and an iterative development process.",
+        "Wrote unit tests and designed test cases across multiple projects."
+      ],
+      "stack": "PHP, Laravel, Vue, Tailwind",
+      "keywords": []
     },
     {
-      "highlights": [
-        "Joined Corptia as a front-end web developer after being invited by the founders.",
-        "Developed a Vue.js boilerplate admin panel, featuring a set of complex components like CRUD-generator component, while prioritizing ease of use, reusability, and performance.",
-        "Established a seamless GraphQL-based development workflow, leveraging GraphQL features such as fragments and aliases.",
-        "Collaborated closely with the design team and worked closely with the backend team to launch our GraphQL interfaces, and often provided additional help to the backend team.",
-        "Provided technical support to the mobile team on using Git and GraphQL."
-      ],
-      "keywords": [
-        {
-          "link": "https://vuejs.org/",
-          "name": "Vue"
-        },
-        {
-          "link": "https://graphql.org/",
-          "name": "GraphQL"
-        },
-        {
-          "link": "https://www.apollographql.com/",
-          "name": "Apollo"
-        },
-        {
-          "link": "https://nuxtjs.org/",
-          "name": "Nuxt.js"
-        },
-        {
-          "link": "https://nodejs.org/en",
-          "name": "Node.js"
-        },
-        {
-          "link": "https://expressjs.com/",
-          "name": "Express.js"
-        },
-        {
-          "link": "https://tailwindcss.com/",
-          "name": "Tailwind"
-        }
-      ],
       "name": "Corptia",
       "position": "Full-Stack Web Developer",
+      "url": "https://corptia.com/",
       "startDate": "01 Jan 2019",
       "endDate": "30 Nov 2019",
-      "url": "https://corptia.com/",
-      "location": "Cairo, Egypt"
+      "location": "Cairo, Egypt",
+      "highlights": [
+        "Invited by the founders to join as a front-end developer; developed a Vue.js admin panel boilerplate with complex components including a CRUD-generator, prioritising reusability and performance.",
+        "Established a GraphQL-based development workflow using fragments and aliases; collaborated closely with design and backend teams on interface launches.",
+        "Provided technical support to the mobile team on Git and GraphQL usage."
+      ],
+      "stack": "Vue, GraphQL, Apollo, Nuxt.js, Node.js, Express.js, Tailwind",
+      "keywords": []
     },
     {
-      "highlights": [
-        "Started my career in the company as a junior developer.",
-        "Worked with top-class developers and learned a lot in a short amount of time.",
-        "Completed tasks assigned to me in various projects, which helped me gain extensive knowledge and experience."
-      ],
-      "keywords": [
-        {
-          "link": "https://vuejs.org/",
-          "name": "Vue"
-        },
-        {
-          "link": "https://graphql.org/",
-          "name": "GraphQL"
-        },
-        {
-          "link": "https://www.apollographql.com/",
-          "name": "Apollo"
-        },
-        {
-          "link": "https://nuxtjs.org/",
-          "name": "Nuxt.js"
-        },
-        {
-          "link": "https://nodejs.org/en",
-          "name": "Node.js"
-        },
-        {
-          "link": "https://expressjs.com/",
-          "name": "Express.js"
-        },
-        {
-          "link": "https://sass-lang.com/",
-          "name": "Sass"
-        }
-      ],
       "name": "Baianat",
-      "position": "Full-Stack Web Developer",
+      "position": "Junior Full-Stack Developer",
+      "url": "https://www.baianat.com/",
       "startDate": "01 Aug 2018",
       "endDate": "30 Dec 2018",
-      "url": "https://www.baianat.com/",
-      "location": "Cairo, Egypt"
+      "location": "Cairo, Egypt",
+      "highlights": [
+        "Started career as the youngest hire in a 30+ person software company (hired professionally at age 16).",
+        "Completed tasks across multiple projects alongside senior developers, gaining broad frontend and backend exposure."
+      ],
+      "stack": "Vue, GraphQL, Apollo, Nuxt.js, Node.js, Express.js, Sass",
+      "keywords": []
     }
   ],
-  "skills": [
+  "education": [
     {
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "level": "Master",
-      "name": "Web Development"
+      "institution": "Self-Educated",
+      "description": "I am a self-taught software engineer with a non-traditional background. My academic path was interrupted after my family fled Syria in 2013, and I entered the workforce at the age of 16 to support them. Since then, I have built my career through hands-on experience, developing my skills in real-world environments. Growing up in this context required constant adaptation, which shaped my ability to operate effectively in ambiguous, fast-paced environments."
+    },
+    {
+      "institution": "Forward Incubator — 1st Place, Technology Track",
+      "date": "2025",
+      "url": "https://forwardinc.verified.cv/en/verify/82832449197640",
+      "description": "Completed the Forward Incubator accelerator program and won first place in the technology track."
     }
-  ]
+  ],
+  "additionalExperience": [
+    "Vuesax RTL Support: Solely added RTL (right-to-left) support to the open-source Vuesax UI library.",
+    "Turning E-commerce: Built a Progressive Web App as an assessment for Turing.com, demonstrating advanced frontend architecture.",
+    "Hacktoberrank: Contributed UI for ranking all participants in Hacktoberfest 2019."
+  ],
+  "awards": [
+    "Helped former employer (Hashtagfox) achieve a 7-figure exit.",
+    "Grew Van Homsi to 53,000+ Instagram followers and secured long-term partnerships with luxury brands in France and Italy.",
+    "Started writing code at age 13 (first language: Ruby); hired professionally at 16 — youngest hire in a 30+ person company."
+  ],
+  "skills": []
 }

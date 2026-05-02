@@ -7,13 +7,16 @@ body {
  font-size: 14px;
 }
 
-a,
-.title {
-  color: rgba(71, 116, 213, 1);
+a {
+  color: inherit;
 }
 
-a:not(.tag):hover {
+a:hover {
   text-decoration: underline;
+}
+
+header a {
+  color: rgba(71, 116, 213, 1);
 }
 
 @screen md {
@@ -32,4 +35,19 @@ a:not(.tag):hover {
 @page {
   size: A4 portrait;
   margin: 0;
+  margin-top: 1.5cm;
+  margin-bottom: 1.5cm;
+}
+
+@media print {
+  body::after {
+    content: '';
+    display: block;
+    position: fixed;
+    bottom: 0.6cm;
+    left: 1.6in;
+    right: 1.6in;
+    height: 1px;
+    background-color: #d1d5db;
+  }
 }
