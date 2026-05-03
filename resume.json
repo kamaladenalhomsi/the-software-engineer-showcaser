@@ -48,10 +48,12 @@
       "endDate": "PRESENT",
       "location": "Amsterdam, Netherlands & Damascus, Syria",
       "highlights": [
-        "Co-founded a CGI production studio specialising in photorealistic commercial content for cosmetics and fragrance brands; acquired and delivered projects for clients in France and Italy (Majouri Paris, HFC Paris, Noeme Paris, Officina Delle Essenze).",
+        "**5M+ organic views and 53,000+** Instagram followers grown through original content strategy within the first year.",
+        "Secured 3 clients and delivered 6+ projects within the first five months of launch.",
+        "Built a client roster of trusted European luxury brands: Majouri Paris, HFC Paris, Noeme Paris, and Officina Delle Essenze.",
+        "Co-founded a CGI production studio specialising in photorealistic commercial content for cosmetics and fragrance brands.",
         "Owned end-to-end operations: led sales conversations with international clients, scoped projects, managed production pipeline, and handled client feedback and iteration.",
         "Developed market positioning strategy through iterative hypothesis testing, establishing product-market fit in the competitive luxury CGI market.",
-        "**5M+ organic views and 53,000+** Instagram followers grown through original content strategy within the first year.",
         "Managed full recruitment cycle for the studio's first hire: sourcing, screening, interviewing, and selecting a 3D artist."
       ],
       "stack": null,
@@ -65,9 +67,9 @@
       "endDate": "01 Aug 2024",
       "location": "Tallinn, Estonia",
       "highlights": [
+        "Developed a React-based BI dashboard providing insights that enabled data-driven decisions, contributing to 1M+ app installs and a 7-figure exit.",
         "Led the full development process: supervised junior developers, created technical tasks with the founder and design team, reviewed pull requests, and evaluated technical solutions.",
         "Architected and owned end-to-end business intelligence infrastructure: built an event processing pipeline (GCP Cloud Functions, Firestore, BigQuery) handling +10 million events; designed SQL aggregation queries with data partitioning and clustering, **reducing costs by 46%** and accelerating processing 6x.",
-        "Developed a React-based BI dashboard providing insights that enabled data-driven decisions, contributing to **more than a million app installs**.",
         "Built an internal email customer support platform (similar to Zendesk) for support teams using React.js.",
         "Solely built an internal task manager with real-time updates and activity logs using TypeScript, React, Node.js, and Firebase.",
         "Developed multiple payment interfaces using Stripe Elements and standalone Stripe integration."
@@ -138,7 +140,6 @@
     "Hacktoberrank: Contributed UI for ranking all participants in Hacktoberfest 2019."
   ],
   "awards": [
-    "Helped former employer (Hashtagfox) achieve a 7-figure exit.",
     "Grew Van Homsi to 53,000+ Instagram followers and secured long-term partnerships with luxury brands in France and Italy.",
     "Started writing code at age 13 (first language: Ruby); hired professionally at 16 — youngest hire in a 30+ person company."
   ],
